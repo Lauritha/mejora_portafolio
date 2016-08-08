@@ -1,0 +1,91 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+#home{
+  background-image: url(../fondo_1.jpg);
+  background-size: cover;
+}
+#contact{
+  background-image: url(../fondo_1.jpg);
+  background-size: cover;
+}
+#habilidades{
+  background-image: url(../fondo_2.jpg);
+  background-size: cover;
+}
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+h1{
+  color: #FFFFFF;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+h4{
+  color: #FFFFFF;
+}
+footer{
+  background-color: #747373;
+}
+.withe{
+  background-color: #747373;
+}
+hr{
+  border: double 1.5px #FFFFFF;
+}
+#sobremi{
+  background-color: #747373;
+}
+#portafolio{
+  background-color: #747373;
+}
+.redes{
+  background-color: #D1CECE;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.5em;
+}
